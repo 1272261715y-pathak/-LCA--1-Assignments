@@ -1,0 +1,119 @@
+Python program for List operations
+
+
+# Create a list
+my_list = [10, 20, 30, 40, 50]
+print("Original List:", my_list)
+
+# Append
+my_list.append(60)
+print("After append:", my_list)
+
+# Insert
+my_list.insert(2, 25)
+print("After insert:", my_list)
+
+# Remove
+my_list.remove(30)
+print("After remove:", my_list)
+
+# Pop
+removed = my_list.pop()
+print("Popped element:", removed)
+print("After pop:", my_list)
+
+# Sort
+my_list.sort()
+print("After sort:", my_list)
+
+# Reverse
+my_list.reverse()
+print("After reverse:", my_list)
+
+# Length
+print("Length of list:", len(my_list))
+
+# Access an element
+print("First element:", my_list[0])
+
+
+Python program for Tuple operations
+
+
+# Create a tuple
+my_tuple = (10, 20, 30, 40, 50)
+print("Original Tuple:", my_tuple)
+
+# Access elements
+print("First element:", my_tuple[0])
+print("Last element:", my_tuple[-1])
+
+# Slicing
+print("Tuple from index 1 to 3:", my_tuple[1:4])
+
+# Count
+print("Count of 20:", my_tuple.count(20))
+
+# Index
+print("Index of 30:", my_tuple.index(30))
+
+# Length
+print("Length of tuple:", len(my_tuple))
+
+# Concatenation
+new_tuple = my_tuple + (60, 70)
+print("After concatenation:", new_tuple)
+
+# Repetition
+repeat_tuple = (1, 2) * 3
+print("After repetition:", repeat_tuple)
+
+# Membership
+print("Is 30 present?", 30 in my_tuple)
+
+
+Python program for Dictionary operations
+
+
+# Create a dictionary
+student = {"name": "Rahul",
+           "age": 20,
+          "course": "Computer Engineering"}
+
+print("Original Dictionary:", student)
+
+# Add a new key-value pair
+student["city"] = "Pune"
+print("After adding city:", student)
+
+# Update a value
+student["age"] = 21
+print("After updating age:", student)
+
+# Access a value
+print("Student name:", student["name"])
+
+# get()
+print("Course:", student.get("course"))
+
+# keys()
+print("Keys:", student.keys())
+
+# values()
+print("Values:", student.values())
+
+# items()
+print("Items:", student.items())
+
+# pop()
+removed = student.pop("city")
+print("Removed value:", removed)
+print("After pop:", student)
+
+# Check whether a key exists
+print("Is 'name' present?", "name" in student)
+
+# Length
+print("Length of dictionary:", len(student))
+
+
